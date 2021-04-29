@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.areas{
+    width: 600px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+#addr,#prov,#city,#country{
+    width: 160px;
+    height: 30px;
+    margin: 5px 2px 5px;
+    color: rgb(114, 112, 112);
+}
+
+.btn{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(249, 252, 251);
+    color: black;
+}
+
+

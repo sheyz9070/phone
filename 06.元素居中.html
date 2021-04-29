@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* .main{
+            width: 100%;
+            display: flex;
+      
+        }
+        .left{
+            width: 100px;
+            height: 200px;
+            background: #ccc; 
+        }
+        .right{
+            width: 100px;
+            height: 200px;
+            background: #ccc; 
+        }
+        .center{
+            flex: 1;
+            background: rgb(210, 231, 219);
+        } */
+
+        .main {
+            width: 100%;
+            height: 400px;
+            position: relative;
+        }
+
+        .left {
+            width: 200px;
+            height: 400px;
+            background: #c98;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .right {
+            width: 200px;
+            height: 400px;
+            background: #c98;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .center {
+            width: 100%;
+            height: 400px;
+            background: rgb(250, 227, 214);
+            padding: 0 200px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">left</div>
+        <div class="center">conter</div>
+        <div class="right">right</div>
+    </div>
+
+    <script>
+
+        var name = "jack"
+        var obj = {
+            name: "张三",
+            getName: function () {
+                function fn() {
+                    return this.name;
+                }
+                return fn();
+            }
+        }
+        console.log(obj.getName())
+    </script>
+</body>
+
+</html>
